@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Nov 25 11:57:45 2019
+
+@author: kylamae
+"""
+
+import pandas as pd
+
+data = pd.read_csv("cars.csv")
+
+print(data[:5], data[27:])
